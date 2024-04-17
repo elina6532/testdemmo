@@ -2,8 +2,8 @@
 ## Запуск проекта
 перейдите в папку bin/ооо_демо
 ## Средства Разработки
--Visual Studio 2022
--MySql WorkBench
--C#
+- Visual Studio 2022
+- MySql WorkBench
+- C#
 ## Автор
 *Ахметзянова Элина* 20 ИС-1
