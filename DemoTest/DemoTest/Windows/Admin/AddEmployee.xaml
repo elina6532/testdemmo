@@ -1,0 +1,78 @@
+﻿<Window x:Class="DemoTest.Windows.Admin.AddEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoTest.Windows.Admin"
+        mc:Ignorable="d"
+        Title="AddEmployee" Height="550" Width="800" FontFamily="Comic Sans MS" FontSize="20">
+    <Grid>
+        <StackPanel Orientation="Vertical" Background="#FFF7D5D5" Margin="127,0,127,0">
+            <TextBlock HorizontalAlignment="Center">Добавление сотрудника</TextBlock>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Фамилия</TextBlock>
+                <Label Width="31"/>
+                <TextBox x:Name="txtFirstname" Width="429"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Имя</TextBlock>
+                <Label Width="77"/>
+                <TextBox x:Name="txtName" Width="428"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Отчество</TextBlock>
+                <Label Width="28"/>
+                <TextBox x:Name="txtPatronymic" Width="430"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Телефон</TextBlock>
+                <Label Width="28"/>
+                <TextBox x:Name="txtPhone" Width="430"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Адрес</TextBlock>
+                <Label Width="58"/>
+                <TextBox x:Name="txtAdress" Width="430"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Паспорт</TextBlock>
+                <Label Width="34"/>
+                <TextBox x:Name="txtPassport" Width="426"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Статус</TextBlock>
+                <Label Width="53"/>
+                <ComboBox x:Name="txtStatus" Width="430"></ComboBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Должность</TextBlock>
+                <Label/>
+                <ComboBox x:Name="txtPosition" Width="428"></ComboBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Логин</TextBlock>
+                <Label Width="57"/>
+                <TextBox x:Name="txtLogin" Width="428"></TextBox>
+            </StackPanel>
+            <Label/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Пароль</TextBlock>
+                <Label Width="44"/>
+                <TextBox x:Name="txtPassword" Width="425"></TextBox>
+            </StackPanel>
+            <Label/>
+            <Button x:Name="Add" Click="Add_Click">Добавить сотрудника</Button>
+            <Label/>
+            <Button x:Name="Back">Назад</Button>
+        </StackPanel>
+    </Grid>
+</Window>
